@@ -1,0 +1,192 @@
+html {
+  font-family: Arial;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: 19px;
+  
+  
+}
+
+header{
+  background:"img/fondo.jpg" no-repeat center center ;
+  background-size: cover;
+  
+}
+
+header h2{
+    color:#000;
+    font-family: 'Arial', sans-serif;
+    font-size: 65px;
+    padding: 170px 0;
+    text-align: right;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background: "img/hanhan.jpg" no-repeat;
+  }
+
+  .main{
+    text-align:center;
+    width: 90%; 
+    background: rgba(255, 255, 255, 0);
+    padding: 20px;
+    box-sizing: border-box; 
+    clear: both;
+    margin: 0 auto;
+}
+
+.main img {
+    
+  height: auto;
+  display: block;
+  max-width: 100%;
+
+}
+
+  .contenedor {
+    width: 100%; 
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+footer{
+  width: 100%;
+  clear: both;
+  float: left;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0);
+  padding: 10px;
+  text-align: center;
+}
+
+footer h2{
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(5, 0, 0);
+  
+}
+footer b{
+  color: rgb(253, 5, 5);
+}
+
+.galeria {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria__item {
+  width: 100%;
+  cursor: pointer;
+}
+
+@media (min-width:480px) {
+  .galeria__item {
+    width: 100%;
+    margin: 5px;
+  }
+}
+
+@media (min-width:768px) {
+  .galeria__item {
+    width: 30%;
+  }
+}
+
+@media (min-width:1024px) {
+  .galeria__item {
+    width: 25%;
+    margin: 20px;
+  }
+}
+
+
+.modaljs {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  top: 0;
+  left: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__imgjs {
+  width: 90%;
+  max-width: 800px;
+}
+
+.modal__botonjs {
+  width: 50px;
+  height: 50px;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: monospace;
+  line-height: 50px;
+  text-align: center;
+  background: rgb(204, 6, 6);
+  border-radius: 50%;
+  cursor: pointer;
+  
+  position: absolute;
+  right: 15px ;
+  top: 15px;
+}
+
+ul{
+  color: #ffffff;
+}
+
+
+@media screen and (max-width: 800px){
+  .main {
+      width: 100%
+  }
+}
+
+
+@media screen and (max-width: 550px){
+  .contenedor{
+      width: 100%
+  }
+
+  header img{
+    visibility: hidden;
+}
+
+footer b {
+  font-size: 10px;
+}
+header h1{
+  font-size: 60px;
+} 
+.galeria__item {
+  width: 100%;
+  margin: 5px;
+}
+footer b {
+  font-size: 15px;
+}
+
+footer {
+  margin-top: 0px;
+  
+}
+
+footer a{
+  font-size: 14px;
+}
+
+}

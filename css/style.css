@@ -1,0 +1,168 @@
+html {
+    font-family: Arial;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 19px;
+    
+    
+  }
+
+  
+body {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: justify;
+    background: url(../img/hanhan.jpg) no-repeat;
+    background-size: cover;
+  }
+
+.contenedor {
+    width: 100%; 
+    max-width: 2000px;
+    margin: auto;
+}
+
+.contenedorCarrusel{
+    max-width:750px;
+    max-height: 1300px;
+    margin: auto;
+    clear: both;
+ 
+}
+
+.contenedor1{
+width: 100%;
+max-width: 1000px;
+margin: auto;
+}
+
+.contenedor1 h3 h5{
+    text-align:center ;
+  
+}
+header{
+    background: url ("img/fondo.jpg")  ;
+    background-size: cover;
+}
+
+header h1{
+    color:rgb(0, 0, 0);
+    font-family: 'Russo One', sans-serif;
+    font-size: 65px;
+    padding: 160px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.funda{
+    width: 100%; 
+    background: #fff;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+.main{
+    width: 100%; 
+    background: rgba(255, 255, 255, 0);
+    padding: 20px;
+    float: left;
+    box-sizing: border-box; 
+    margin-bottom: 20px;
+}
+
+.main img {
+    height: auto;
+}
+
+
+aside{
+    width: 100%; 
+    padding: 20px;
+    box-sizing: border-box; 
+    background: #ccc;
+    float: left;
+    clear: both;
+}
+
+footer{
+    width: 100%;
+    clear: both;
+    float: left;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0);
+    padding: 10px;
+    text-align: center;
+  }
+
+footer h2{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 0, 0);
+}
+
+
+footer b{
+    color: rgb(253, 5, 5);
+}
+
+.mapa
+{
+  max-width: 500px;
+  max-height: 500px;
+  height: 750px; 
+  width: 100%;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 800px){
+    .main {
+        width: 100%
+        
+    }
+    .main button{
+        margin-left: 50px;
+    }
+    aside{
+        width: 100%
+    }
+
+    .funda{
+        width: 100%;
+    }  
+}
+
+@media screen and (max-width: 550px){
+    .main button{
+        margin-left: 20%;
+    }
+    .contenedor{
+        width: 100%
+    }
+
+    header img{
+        visibility: hidden;
+    }
+    header h1{
+        font-size: 60px;
+    } 
+    footer b {
+        font-size: 15px;
+    }
+
+    footer {
+        margin-top: 0px;
+        
+    }
+
+    footer a{
+        font-size: 14px;
+    }
+    
+    .main{
+        margin-bottom: 0px;
+    }
+}
